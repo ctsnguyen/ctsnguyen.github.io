@@ -1,15 +1,8 @@
 # TrotTracker
 
-<a href="./heatmap.html"> Link to Heatmap </a>
-
-## Demo
-<video width="640" height="360" controls>
-  <source src="assets/demo.mp4" type="video/quicktime">
-  video
-</video>
-
 ## Table of Contents
-
+- [Link to Heatmap](#link-to-heatmap)
+- [Demo](#demo)
 - [Description](#description)
 - [Design](#design)
   - [Functional Specifications](#functional-specifications)
@@ -23,6 +16,20 @@
 - [Challenges](#challenges)
 - [Future Work](#future-work)
 - [Bill of Materials](#bill-of-materials)
+
+
+## Link to Heatmap
+<a href="./heatmap.html"> Click here to access the heatmap </a>
+
+Please note that it may take some time for the hotspots to load.
+
+
+## Demo
+<video width="640" height="360" controls>
+  <source src="assets/demo.mp4" type="video/quicktime">
+  video
+</video>
+
 
 ## Description
 TrotTracker is a smart wearable device that allows users to be able to track their movement by foot. Users will be able to see where they are located, how many steps they have taken, the speed of their movement, as well as a heatmap hosted on a custom website to see where they have been for the longest time. It can be used by a variety of people ranging from casual urban walkers to hikers.
