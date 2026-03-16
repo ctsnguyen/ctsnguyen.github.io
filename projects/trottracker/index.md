@@ -55,6 +55,7 @@ As shown in the state machine diagram shown above, these tasks are essentially a
 
 ### System Architecture
 ![System Architecture Diagram](assets/sys_architecture.png)
+
 Our system architecture description will be divided into three major components as shown from the colored background encompassing particular block regions. The blue block will represent the major hardware blocks, the green block will represent the software blocks involved in retrieving and sending the map, and the red block will represent the pipeline which builds a heatmap of the user’s locations. 
 
 Within the blue block, the accelerometer is used to track the user’s step count. This is performed by sampling change within small periods of time, where significant changes in axes’ measurements result in interrupts which increment a global step count within the program by 1. The GPS module periodically transmits GPS readings via UART, where each transmission is scheduled using our FreeRTOS implementation in order to calculate the user’s current location to be displayed and to send to the device shadow. The OLED display is periodically scheduled to be updated by our RTOS, refreshing the step count and current location. Within our main CC3200 block, we also periodically schedule POST HTTP requests to our device shadow as well as GET HTTP requests to download a new map to display on the OLED. 
