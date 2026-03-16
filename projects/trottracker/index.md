@@ -1,7 +1,3 @@
----
-layout: none
----
-
 # TrotTracker
 
 ## Table of Contents
