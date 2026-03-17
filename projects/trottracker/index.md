@@ -30,6 +30,8 @@ Please note that it may take some time for the hotspots to load.
   video
 </video>
 
+[Click here if you cannot see the demo to view the video in an alternate player](assets/demo.mp4)
+
 
 ## Description
 TrotTracker is a smart wearable device that allows users to be able to track their movement by foot. Users will be able to see where they are located, how many steps they have taken, the speed of their movement, as well as a heatmap hosted on a custom website to see where they have been for the longest time. It can be used by a variety of people ranging from casual urban walkers to hikers.
